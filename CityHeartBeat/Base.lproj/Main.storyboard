@@ -154,7 +154,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J3m-BA-rtJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="64" y="2255.5"/>
+            <point key="canvasLocation" x="-1106" y="2190.5"/>
         </scene>
         <!--Emer 2nd Page View Controller-->
         <scene sceneID="Dyl-aF-MSz">
@@ -276,11 +276,12 @@
                         <outlet property="orangeGauge" destination="mnc-UE-qT3" id="xeg-K4-VRA"/>
                         <outlet property="redGauge" destination="clN-hI-Ion" id="WYa-BY-lLS"/>
                         <outlet property="yellowGauge" destination="W1u-VF-jpD" id="iPc-22-bPu"/>
+                        <segue destination="eOw-dE-xd1" kind="modal" identifier="openMap" id="bRB-aD-fnR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xww-SA-P4S" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="368" y="1953.5"/>
+            <point key="canvasLocation" x="-2574" y="2190.5"/>
         </scene>
         <!--Trans 2nd Page View Controller-->
         <scene sceneID="Nmp-r1-OIX">
@@ -326,10 +327,13 @@
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="242" height="243"/>
+                    <connections>
+                        <segue destination="BAS-6I-knT" kind="modal" id="7kG-ly-V4h"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pL6-MY-9lz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="368" y="2255.5"/>
+            <point key="canvasLocation" x="-482" y="2190.5"/>
         </scene>
         <!--Page View Controller-->
         <scene sceneID="VIL-QU-o6c">
@@ -338,6 +342,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="48a-E1-Px9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1193" y="738.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="rZm-RL-ghT">
+            <objects>
+                <viewController id="eOw-dE-xd1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4wv-Vq-JRr">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Lg4-ZP-g1s"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nFK-Ac-yIT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2574" y="2847"/>
         </scene>
         <!--Emer Main Page View Controller-->
         <scene sceneID="0D1-zi-g97">
@@ -390,7 +410,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1bn-gL-rGn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="64" y="1958.5"/>
+            <point key="canvasLocation" x="-2870" y="2190.5"/>
         </scene>
         <!--Pollution Main Page View Controller-->
         <scene sceneID="F3q-qa-u7Z">
@@ -443,7 +463,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e5p-05-Ttw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="55" y="2579.5"/>
+            <point key="canvasLocation" x="2837" y="2211.5"/>
         </scene>
         <!--Page View Controller-->
         <scene sceneID="ZZ2-bf-MrH">
@@ -500,12 +520,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mKH-Eo-Fiq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="656" y="2255.5"/>
+            <point key="canvasLocation" x="686" y="2190.5"/>
         </scene>
         <!--Pollution 2nd Page View Controller-->
         <scene sceneID="Y8G-11-Bay">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Xwa-RX-uHd" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="Pollution2ndPageViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="QsL-vr-CSP" customClass="Pollution2ndPageViewController" customModule="CityHeartBeat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ff1-Qf-zwe">
                         <rect key="frame" x="0.0" y="0.0" width="242" height="243"/>
@@ -555,8 +574,9 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="242" height="243"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xwa-RX-uHd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="368" y="2579.5"/>
+            <point key="canvasLocation" x="3150" y="2211.5"/>
         </scene>
         <!--Pollution 3rd Page View Controller-->
         <scene sceneID="gTY-la-nSc">
@@ -605,7 +625,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V4U-HV-MyV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="656" y="2579.5"/>
+            <point key="canvasLocation" x="3438" y="2211.5"/>
         </scene>
         <!--Pollution 4th Page View Controller-->
         <scene sceneID="qhi-eF-XRN">
@@ -655,7 +675,39 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ohz-FQ-lRT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="941" y="2579.5"/>
+            <point key="canvasLocation" x="3723" y="2211.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ceu-gq-dSq">
+            <objects>
+                <viewController id="BAS-6I-knT" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GaT-ZX-FVs">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="uRx-c7-UVL"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8EB-1Q-mln" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-482" y="2863"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="URa-fE-Byp">
+            <objects>
+                <viewController id="5Vv-Ld-WfX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yyf-yr-KwH">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="lZs-Yp-Bjc"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="px0-PN-gub" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="767" y="2847"/>
         </scene>
     </scenes>
     <resources>

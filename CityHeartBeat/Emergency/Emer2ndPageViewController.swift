@@ -24,6 +24,14 @@ class Emer2ndPageViewController: UIViewController {
             self.orangeGauge.rate = percent * 40
             self.yellowGauge.rate = percent * 40
             }, completion: nil);
+        
+        let tap = UITapGestureRecognizer(target: self, action: Selector("handleTap:"))
+        self.view.addGestureRecognizer(tap)
+    }
+    
+    func handleTap(sender: UITapGestureRecognizer? = nil) {
+        // handling code
+        performSegueWithIdentifier("openMap", sender: nil)
     }
     
     override func viewDidDisappear(animated: Bool) {
