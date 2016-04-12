@@ -1,0 +1,15 @@
+PODS:
+  - GaugeKit (0.3.2)
+  - INTUAnimationEngine (1.4.2):
+    - INTUAnimationEngine/SpringSolver (= 1.4.2)
+  - INTUAnimationEngine/SpringSolver (1.4.2)
+
+DEPENDENCIES:
+  - GaugeKit
+  - INTUAnimationEngine
+
+SPEC CHECKSUMS:
+  GaugeKit: 4d5c3491521ed2d6e2f83cac5f51d0cd09db8989
+  INTUAnimationEngine: 3a7d63738cd51af573d16848a771feedea7cc9f2
+
+COCOAPODS: 0.39.0
