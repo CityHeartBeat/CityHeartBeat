@@ -7,8 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B4F8F8445E0FD8683D89224 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41218C203949FF4F08CCF618 /* Pods.framework */; };
+		A14E74B61CBB53990067C5D6 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14E74B51CBB53990067C5D6 /* PageViewController.swift */; };
+		A14E74B81CBB5B8E0067C5D6 /* TransMainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14E74B71CBB5B8E0067C5D6 /* TransMainPageViewController.swift */; };
+		A14E74BA1CBB5CCD0067C5D6 /* EmerMainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14E74B91CBB5CCC0067C5D6 /* EmerMainPageViewController.swift */; };
+		A14E74BC1CBB750C0067C5D6 /* PollutionMainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14E74BB1CBB750C0067C5D6 /* PollutionMainPageViewController.swift */; };
+		A14E74BE1CBB77E00067C5D6 /* Emer2ndPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14E74BD1CBB77E00067C5D6 /* Emer2ndPageViewController.swift */; };
+		A14E74C31CBB78680067C5D6 /* Trans2ndPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14E74C21CBB78680067C5D6 /* Trans2ndPageViewController.swift */; };
+		A14E74C51CBB78A10067C5D6 /* Trans3rdPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14E74C41CBB78A10067C5D6 /* Trans3rdPageViewController.swift */; };
+		A14E74C71CBB78F90067C5D6 /* Pollution2ndPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14E74C61CBB78F90067C5D6 /* Pollution2ndPageViewController.swift */; };
+		A14E74C91CBB79350067C5D6 /* Pollution3rdPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14E74C81CBB79350067C5D6 /* Pollution3rdPageViewController.swift */; };
+		A14E74CF1CBB79930067C5D6 /* Pollution4thPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14E74CE1CBB79930067C5D6 /* Pollution4thPageViewController.swift */; };
+		A14E74D51CBC98BA0067C5D6 /* icon-311.png in Resources */ = {isa = PBXBuildFile; fileRef = A14E74D31CBC98BA0067C5D6 /* icon-311.png */; };
+		A14E74D61CBC98BA0067C5D6 /* icon-367.png in Resources */ = {isa = PBXBuildFile; fileRef = A14E74D41CBC98BA0067C5D6 /* icon-367.png */; };
+		A14E74DC1CBC992A0067C5D6 /* drops.png in Resources */ = {isa = PBXBuildFile; fileRef = A14E74D91CBC992A0067C5D6 /* drops.png */; };
+		A14E74DD1CBC992A0067C5D6 /* nature-1.png in Resources */ = {isa = PBXBuildFile; fileRef = A14E74DA1CBC992A0067C5D6 /* nature-1.png */; };
+		A14E74DE1CBC992A0067C5D6 /* nature.png in Resources */ = {isa = PBXBuildFile; fileRef = A14E74DB1CBC992A0067C5D6 /* nature.png */; };
+		A14E74E11CBC99610067C5D6 /* buildings-1.png in Resources */ = {isa = PBXBuildFile; fileRef = A14E74DF1CBC99610067C5D6 /* buildings-1.png */; };
+		A14E74E21CBC99610067C5D6 /* buildings.png in Resources */ = {isa = PBXBuildFile; fileRef = A14E74E01CBC99610067C5D6 /* buildings.png */; };
+		A14E74E41CBC99B20067C5D6 /* technology.png in Resources */ = {isa = PBXBuildFile; fileRef = A14E74E31CBC99B20067C5D6 /* technology.png */; };
+		A14E74E61CBCB7970067C5D6 /* Part-2-Background-16-without-Glare.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A14E74E51CBCB7970067C5D6 /* Part-2-Background-16-without-Glare.jpg */; };
+		A14E74E81CBCB89A0067C5D6 /* light-blue-background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A14E74E71CBCB89A0067C5D6 /* light-blue-background.jpg */; };
 		A174EAC91CB3A9E600451FC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A174EAC81CB3A9E600451FC3 /* AppDelegate.swift */; };
-		A174EACB1CB3A9E600451FC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A174EACA1CB3A9E600451FC3 /* ViewController.swift */; };
+		A174EACB1CB3A9E600451FC3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A174EACA1CB3A9E600451FC3 /* MainViewController.swift */; };
 		A174EACE1CB3A9E600451FC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A174EACC1CB3A9E600451FC3 /* Main.storyboard */; };
 		A174EAD11CB3A9E600451FC3 /* CityHeartBeat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A174EACF1CB3A9E600451FC3 /* CityHeartBeat.xcdatamodeld */; };
 		A174EAD31CB3A9E600451FC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A174EAD21CB3A9E600451FC3 /* Assets.xcassets */; };
@@ -16,14 +37,37 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		41218C203949FF4F08CCF618 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F64A7B15A5D6060D3B2D0BA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A14E74B51CBB53990067C5D6 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		A14E74B71CBB5B8E0067C5D6 /* TransMainPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransMainPageViewController.swift; path = Transport/TransMainPageViewController.swift; sourceTree = "<group>"; };
+		A14E74B91CBB5CCC0067C5D6 /* EmerMainPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmerMainPageViewController.swift; path = Emergency/EmerMainPageViewController.swift; sourceTree = "<group>"; };
+		A14E74BB1CBB750C0067C5D6 /* PollutionMainPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PollutionMainPageViewController.swift; path = Pollution/PollutionMainPageViewController.swift; sourceTree = "<group>"; };
+		A14E74BD1CBB77E00067C5D6 /* Emer2ndPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Emer2ndPageViewController.swift; path = Emergency/Emer2ndPageViewController.swift; sourceTree = "<group>"; };
+		A14E74C21CBB78680067C5D6 /* Trans2ndPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Trans2ndPageViewController.swift; path = Transport/Trans2ndPageViewController.swift; sourceTree = "<group>"; };
+		A14E74C41CBB78A10067C5D6 /* Trans3rdPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Trans3rdPageViewController.swift; path = Transport/Trans3rdPageViewController.swift; sourceTree = "<group>"; };
+		A14E74C61CBB78F90067C5D6 /* Pollution2ndPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Pollution2ndPageViewController.swift; path = Pollution/Pollution2ndPageViewController.swift; sourceTree = "<group>"; };
+		A14E74C81CBB79350067C5D6 /* Pollution3rdPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Pollution3rdPageViewController.swift; path = Pollution/Pollution3rdPageViewController.swift; sourceTree = "<group>"; };
+		A14E74CE1CBB79930067C5D6 /* Pollution4thPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Pollution4thPageViewController.swift; path = Pollution/Pollution4thPageViewController.swift; sourceTree = "<group>"; };
+		A14E74D31CBC98BA0067C5D6 /* icon-311.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-311.png"; sourceTree = "<group>"; };
+		A14E74D41CBC98BA0067C5D6 /* icon-367.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-367.png"; sourceTree = "<group>"; };
+		A14E74D91CBC992A0067C5D6 /* drops.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drops.png; sourceTree = "<group>"; };
+		A14E74DA1CBC992A0067C5D6 /* nature-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nature-1.png"; sourceTree = "<group>"; };
+		A14E74DB1CBC992A0067C5D6 /* nature.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nature.png; sourceTree = "<group>"; };
+		A14E74DF1CBC99610067C5D6 /* buildings-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buildings-1.png"; sourceTree = "<group>"; };
+		A14E74E01CBC99610067C5D6 /* buildings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buildings.png; sourceTree = "<group>"; };
+		A14E74E31CBC99B20067C5D6 /* technology.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = technology.png; sourceTree = "<group>"; };
+		A14E74E51CBCB7970067C5D6 /* Part-2-Background-16-without-Glare.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Part-2-Background-16-without-Glare.jpg"; sourceTree = "<group>"; };
+		A14E74E71CBCB89A0067C5D6 /* light-blue-background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "light-blue-background.jpg"; sourceTree = "<group>"; };
 		A174EAC51CB3A9E600451FC3 /* CityHeartBeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CityHeartBeat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A174EAC81CB3A9E600451FC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A174EACA1CB3A9E600451FC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A174EACA1CB3A9E600451FC3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A174EACD1CB3A9E600451FC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A174EAD01CB3A9E600451FC3 /* CityHeartBeat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CityHeartBeat.xcdatamodel; sourceTree = "<group>"; };
 		A174EAD21CB3A9E600451FC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A174EAD51CB3A9E600451FC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A174EAD71CB3A9E600451FC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB07B5AC9112CCAE1746DB2E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +75,100 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B4F8F8445E0FD8683D89224 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		157166032095F255C3FEB252 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41218C203949FF4F08CCF618 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0FAD5DC429CBE411A4EEE1D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F64A7B15A5D6060D3B2D0BA /* Pods.debug.xcconfig */,
+				CB07B5AC9112CCAE1746DB2E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A14E74BF1CBB78140067C5D6 /* Emergency */ = {
+			isa = PBXGroup;
+			children = (
+				A14E74B91CBB5CCC0067C5D6 /* EmerMainPageViewController.swift */,
+				A14E74BD1CBB77E00067C5D6 /* Emer2ndPageViewController.swift */,
+			);
+			name = Emergency;
+			sourceTree = "<group>";
+		};
+		A14E74C01CBB78260067C5D6 /* Pollution */ = {
+			isa = PBXGroup;
+			children = (
+				A14E74BB1CBB750C0067C5D6 /* PollutionMainPageViewController.swift */,
+				A14E74C61CBB78F90067C5D6 /* Pollution2ndPageViewController.swift */,
+				A14E74C81CBB79350067C5D6 /* Pollution3rdPageViewController.swift */,
+				A14E74CE1CBB79930067C5D6 /* Pollution4thPageViewController.swift */,
+			);
+			name = Pollution;
+			sourceTree = "<group>";
+		};
+		A14E74C11CBB78320067C5D6 /* Transportation */ = {
+			isa = PBXGroup;
+			children = (
+				A14E74B71CBB5B8E0067C5D6 /* TransMainPageViewController.swift */,
+				A14E74C21CBB78680067C5D6 /* Trans2ndPageViewController.swift */,
+				A14E74C41CBB78A10067C5D6 /* Trans3rdPageViewController.swift */,
+			);
+			name = Transportation;
+			sourceTree = "<group>";
+		};
+		A14E74D21CBBBB9D0067C5D6 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A14E74E71CBCB89A0067C5D6 /* light-blue-background.jpg */,
+				A14E74E51CBCB7970067C5D6 /* Part-2-Background-16-without-Glare.jpg */,
+				A14E74D81CBC98FA0067C5D6 /* pollution */,
+				A14E74D71CBC98C70067C5D6 /* transportation */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		A14E74D71CBC98C70067C5D6 /* transportation */ = {
+			isa = PBXGroup;
+			children = (
+				A14E74D31CBC98BA0067C5D6 /* icon-311.png */,
+				A14E74D41CBC98BA0067C5D6 /* icon-367.png */,
+			);
+			name = transportation;
+			sourceTree = "<group>";
+		};
+		A14E74D81CBC98FA0067C5D6 /* pollution */ = {
+			isa = PBXGroup;
+			children = (
+				A14E74E31CBC99B20067C5D6 /* technology.png */,
+				A14E74DF1CBC99610067C5D6 /* buildings-1.png */,
+				A14E74E01CBC99610067C5D6 /* buildings.png */,
+				A14E74D91CBC992A0067C5D6 /* drops.png */,
+				A14E74DA1CBC992A0067C5D6 /* nature-1.png */,
+				A14E74DB1CBC992A0067C5D6 /* nature.png */,
+			);
+			name = pollution;
+			sourceTree = "<group>";
+		};
 		A174EABC1CB3A9E600451FC3 = {
 			isa = PBXGroup;
 			children = (
 				A174EAC71CB3A9E600451FC3 /* CityHeartBeat */,
 				A174EAC61CB3A9E600451FC3 /* Products */,
+				A0FAD5DC429CBE411A4EEE1D /* Pods */,
+				157166032095F255C3FEB252 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,9 +183,14 @@
 		A174EAC71CB3A9E600451FC3 /* CityHeartBeat */ = {
 			isa = PBXGroup;
 			children = (
+				A14E74D21CBBBB9D0067C5D6 /* images */,
+				A14E74C11CBB78320067C5D6 /* Transportation */,
+				A14E74C01CBB78260067C5D6 /* Pollution */,
 				A174EAC81CB3A9E600451FC3 /* AppDelegate.swift */,
-				A174EACA1CB3A9E600451FC3 /* ViewController.swift */,
+				A174EACA1CB3A9E600451FC3 /* MainViewController.swift */,
 				A174EACC1CB3A9E600451FC3 /* Main.storyboard */,
+				A14E74BF1CBB78140067C5D6 /* Emergency */,
+				A14E74B51CBB53990067C5D6 /* PageViewController.swift */,
 				A174EAD21CB3A9E600451FC3 /* Assets.xcassets */,
 				A174EAD41CB3A9E600451FC3 /* LaunchScreen.storyboard */,
 				A174EAD71CB3A9E600451FC3 /* Info.plist */,
@@ -74,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A174EADA1CB3A9E600451FC3 /* Build configuration list for PBXNativeTarget "CityHeartBeat" */;
 			buildPhases = (
+				130D2B69AD58548F319DADFC /* Check Pods Manifest.lock */,
 				A174EAC11CB3A9E600451FC3 /* Sources */,
 				A174EAC21CB3A9E600451FC3 /* Frameworks */,
 				A174EAC31CB3A9E600451FC3 /* Resources */,
+				36AC5B156F182C22BB2332F1 /* Embed Pods Frameworks */,
+				6A0FC863DD69618D16330A6D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,21 +261,89 @@
 			buildActionMask = 2147483647;
 			files = (
 				A174EAD61CB3A9E600451FC3 /* LaunchScreen.storyboard in Resources */,
+				A14E74E61CBCB7970067C5D6 /* Part-2-Background-16-without-Glare.jpg in Resources */,
+				A14E74E11CBC99610067C5D6 /* buildings-1.png in Resources */,
 				A174EAD31CB3A9E600451FC3 /* Assets.xcassets in Resources */,
+				A14E74D51CBC98BA0067C5D6 /* icon-311.png in Resources */,
 				A174EACE1CB3A9E600451FC3 /* Main.storyboard in Resources */,
+				A14E74DE1CBC992A0067C5D6 /* nature.png in Resources */,
+				A14E74DC1CBC992A0067C5D6 /* drops.png in Resources */,
+				A14E74E41CBC99B20067C5D6 /* technology.png in Resources */,
+				A14E74DD1CBC992A0067C5D6 /* nature-1.png in Resources */,
+				A14E74E81CBCB89A0067C5D6 /* light-blue-background.jpg in Resources */,
+				A14E74D61CBC98BA0067C5D6 /* icon-367.png in Resources */,
+				A14E74E21CBC99610067C5D6 /* buildings.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		130D2B69AD58548F319DADFC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		36AC5B156F182C22BB2332F1 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A0FC863DD69618D16330A6D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A174EAC11CB3A9E600451FC3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A174EACB1CB3A9E600451FC3 /* ViewController.swift in Sources */,
+				A14E74C31CBB78680067C5D6 /* Trans2ndPageViewController.swift in Sources */,
+				A174EACB1CB3A9E600451FC3 /* MainViewController.swift in Sources */,
+				A14E74C91CBB79350067C5D6 /* Pollution3rdPageViewController.swift in Sources */,
 				A174EAC91CB3A9E600451FC3 /* AppDelegate.swift in Sources */,
+				A14E74BA1CBB5CCD0067C5D6 /* EmerMainPageViewController.swift in Sources */,
+				A14E74BE1CBB77E00067C5D6 /* Emer2ndPageViewController.swift in Sources */,
+				A14E74B81CBB5B8E0067C5D6 /* TransMainPageViewController.swift in Sources */,
 				A174EAD11CB3A9E600451FC3 /* CityHeartBeat.xcdatamodeld in Sources */,
+				A14E74B61CBB53990067C5D6 /* PageViewController.swift in Sources */,
+				A14E74C71CBB78F90067C5D6 /* Pollution2ndPageViewController.swift in Sources */,
+				A14E74C51CBB78A10067C5D6 /* Trans3rdPageViewController.swift in Sources */,
+				A14E74CF1CBB79930067C5D6 /* Pollution4thPageViewController.swift in Sources */,
+				A14E74BC1CBB750C0067C5D6 /* PollutionMainPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +454,7 @@
 		};
 		A174EADB1CB3A9E600451FC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F64A7B15A5D6060D3B2D0BA /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CityHeartBeat/Info.plist;
@@ -262,6 +466,7 @@
 		};
 		A174EADC1CB3A9E600451FC3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB07B5AC9112CCAE1746DB2E /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CityHeartBeat/Info.plist;
@@ -290,6 +495,7 @@
 				A174EADC1CB3A9E600451FC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
